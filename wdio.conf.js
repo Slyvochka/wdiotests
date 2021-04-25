@@ -90,7 +90,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://stage.localcoding.us/user/login',
+    baseUrl: 'https://stage.localcoding.us',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -254,7 +254,7 @@ exports.config = {
      */
     // afterSession: function (config, capabilities, specs) {
     // },
-    /**
+    /*
      * Gets executed after all workers got shut down and the process is about to exit. An error
      * thrown in the onComplete hook will result in the test run failing.
      * @param {Object} exitCode 0 - success, 1 - fail
